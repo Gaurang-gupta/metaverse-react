@@ -4,8 +4,8 @@ function Login() {
     const { authenticate } = useMoralis();
 
     return (
-        <div className="bg-black relative">
-            <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">
+        <div className="bg-black relative flex justify-center">
+            <div className="mx-auto mt-14 flex flex-col absolute z-50 h-4/6 items-center justify-center space-y-4">
                 <Image
                     src="https://links.papareact.com/3pi"
                     height={200}
